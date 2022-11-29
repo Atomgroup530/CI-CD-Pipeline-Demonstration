@@ -6,7 +6,7 @@
 # https://github.com/github/super-linter
 name: Lint Code Base
 
-o: 
+on: 
   push:
     branches: [main, passwordHolderFeature, billDividerFeature, choresListFeature, roommateListFeature]
   pull_request:
