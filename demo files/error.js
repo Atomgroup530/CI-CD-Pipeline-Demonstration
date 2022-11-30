@@ -1,4 +1,4 @@
-xport function readChores() {
+export function readChores() {
     if (localStorage.getItem("ChoresListData") === null) {
       const chores = {
         chores: [],
